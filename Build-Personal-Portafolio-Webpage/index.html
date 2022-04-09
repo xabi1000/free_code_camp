@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Build Personal Portafolio Webpage</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list nav__list">
+        <li class="nav__item">
+          <a href="#welcome-section" class="nav__link">About </a>
+        </li>
+        <li class="nav__item">
+          <a href="#projects" class="nav__link">Work</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="welcome-section" class="section welcome-section">
+      <h1>Hey I am Mimic</h1>
+      <p>a web developer</p>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <h2 class="projects-section-header">These are some of my projects</h2>
+
+      <div class="section projects-grid">
+        <div class="container__img">
+          <a
+            href="https://www.freecodecamp.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://image.freepik.com/free-vector/data-protection-technology-template-vector-with-lock-icon_53876-126049.jpg"
+              alt="project"
+            />
+            <p class="project-title">
+              Data Protection Technology
+            </p>
+          </a>
+        </div>
+        <div class="container__img">
+          <a
+            href="https://www.freecodecamp.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://image.freepik.com/free-vector/futuristic-lock-shield-protection_53876-118349.jpg"
+              alt="project"
+            />
+            <p class="project-title">
+              Futuristic Lock Shield Protection
+            </p>
+          </a>
+        </div>
+        <div class="container__img">
+          <a
+            href="https://www.freecodecamp.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://image.freepik.com/free-photo/african-american-man-holding-blue-ribbon_23-2149132224.jpg"
+              alt="project"
+            />
+            <p class="project-title">
+              African American Man Holding Blue
+            </p>
+          </a>
+        </div>
+        <div class="container__img">
+          <a
+            href="https://www.freecodecamp.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://image.freepik.com/free-psd/logo-mockup-clothing-embroidered-sweater_145275-408.jpg"
+              alt="project"
+            />
+            <p class="project-title">
+              Map Data Across the Globe
+            </p>
+          </a>
+        </div>
+
+        <div class="container__img">
+          <a
+            href="https://www.freecodecamp.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://image.freepik.com/free-vector/water-drop-texture-background-blue-wallpaper-vector_53876-140065.jpg"
+              alt="project"
+            />
+            <p class="project-title">
+              Water Drop Texture
+            </p>
+          </a>
+        </div>
+
+        <div class="container__img">
+          <a
+            href="https://www.freecodecamp.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://image.freepik.com/free-vector/deep-sea-background_53876-94186.jpg"
+              alt="project"
+            />
+            <p class="project-title">
+              Deep Sea Background
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="container__btn">
+        <a
+          href="https://www.freecodecamp.org/"
+          class="btn btn-show-all"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Show all</a
+        ><i class="fas fa-chevron-right"></i>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+        <p>How do you take your coffee?</p>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://facebook.com/freecodecamp"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn contact-details"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/freecodecamp"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://twitter.com/freecodecamp"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn contact-details"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+        <a href="mailto:example@example.com" class="btn contact-details"
+          ><i class="fas fa-at"></i> Send a mail</a
+        >
+        <a href="tel:555-555-5555" class="btn contact-details"
+          ><i class="fas fa-mobile-alt"></i> Call me</a
+        >
+      </div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"
+      integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
